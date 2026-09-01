@@ -1,204 +1,222 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="header_menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
-            <a class="link__active" href="">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#0">посмотреть лоты</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#0">об аукционе</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header__logo">
-        <img
-          class="header__logo-image"
-          src="./images/logo-black.svg"
-          alt="Логотип"/>
-      </a>
-      <address class="address">
-        <a class="contact__address" href="tel:+99995555555">+9 999 555 5555<br/></a>
-        <a class="contact__address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263-<br />265, Амстердам</p>
-      </address>
-    </header>
-    <main class="content content-section">
-      <section class="cover">
-        <div class="overlay"></div>
-        <h1 class="cover__title">
-          <span class="aligned-text">оно</span>
-          <span class="aligned-text_center">тебе</span>
-          <span class="aligned-text_right">надо</span>
-        </h1>
-        <div class="cover__description">
-          <p class="cover__description-text">
-            Аукцион вещей, в которые никто не верил
-          </p>
-          <button class="bet-button">Сделать ставку</button>
-        </div>
-      </section>
-      <section class="lots">
-        <h2 class="lots__heading">Лоты</h2>
-        <ul class="lots__card-list">
-          <li class="lots__card-list-item">
-            <a class="card-link" href="#0">
-              <article class="card card_type_film">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="card__text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </article>
-            </a>
-          </li>
-          <li class="lots__card-list-item">
-            <a class="card-link" href="#0">
-              <article class="card card_type_book">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="card__text">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </article>
-            </a>
-          </li>
-          <li class="lots__card-list-item">
-            <a class="card-link" href="#0">
-              <article class="card card_type_picture">
-                <div class="overlay"></div>
-                <h3 class="card__title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="card__text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков... Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </article>
-            </a>
-          </li>
+    <title>Дмитрий & Алёна | Приглашение на свадьбу</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="wrapper">
 
-          <!-- <li class="lots__card-list-item">
-          <a class="card-link" href="#0">
-            <article class="card card_type_picture_2">
-              <div class="overlay"></div>
-              <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
-          <p class="card__text">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. 
-            Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, 
-            что это — одна из революционных работ Кандинского?</p>
-          </article>
-          </a>
-        </li> -->
-        </ul>
-        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
-      </section>
-      <section class="about">
-        <div class="about__logo">
-          <img
-            class="about__logo-image"
-            src="./images/logo-white.svg"
-            alt="Логотип"/>
-        </div>
-        <h2 class="about__title">Об аукционе</h2>
-        <div class="about__wrapper">
-          <p class="about__text">
-            Здесь вы не встретите очередное пафосное собрание невероятно
-            дорогого антиквариата. Наши лоты вообще не должны были попасть ни на
-            один аукцион. Потому что кому нужен дневник девочки-подростка или
-            картина, которую может нарисовать даже ребёнок? Кому нужны все эти
-            странные вещи, созданные любителями?
-          </p>
-          <p class="about__text">
-            Слишком сложные или, наоборот, слишком простые. Опережающие своё
-            время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-            Когда-то они казались просто неудачными. Но, несмотря на критику,
-            кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-            представить современную культуру. Когда в эти вещи не верил никто,
-            продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-          </p>
-          <!-- <p class="about__text">
-          Слишком сложные или, наоборот, слишком простые. Опережающие своё
-          время. В пух и прах растерзанные критиками. Непринятые и непонятые.
-          Когда-то они казались просто неудачными. Но, несмотря на критику,
-          кажущуюся простоту или сложность, сейчас без этих лотов невозможно
-          представить современную культуру. Когда в эти вещи не верил никто,
-          продолжали верить их создатели. И сейчас эти лоты стали культовыми.
-        </p> -->
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <address class="address address__footer">
-        <a class="contact__address" href="tel:+99995555555">+9 999 555 5555<br/></a>
-        <a class="contact__address" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        <p>наб. Принсенграхт 263-265,<br/>Амстердам</p>
-      </address>
-      <nav class="footer__menu">
-        <ul class="footer__menu-list">
-          <li class="footer__menu-list-item">
-            <a class="link__active" href="">главная</a>
-          </li>
-          <li class="footer__menu-list-item">
-            <a href="#0">посмотреть лоты</a>
-          </li>
-          <li class="footer__menu-list-item">
-            <a href="#0">об аукционе</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="footer__social-list">
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img
-              class="footer__social-icon"
-              src="./images/yt.svg"
-              alt="Youtube"
-            />
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img class="footer__social-icon" src="./images/vk.svg" alt="VK" />
-          </a>
-        </li>
-        <li class="footer__social-list-item">
-          <a class="footer__social-link" href="#0">
-            <img
-              class="footer__social-icon"
-              src="./images/pinterest.svg"
-              alt="Pinterest"
-            />
-          </a>
-        </li>
-      </ul>
-    </footer>
-  </body>
+        <!-- ===== Верхняя секция: фото + имена + дата ===== -->
+        <header class="hero">
+            <div class="hero-image">
+                <!-- Здесь фоновая картинка задаётся в CSS -->
+                <div class="hero-overlay">
+                    <div class="hero-left">
+                        <span class="date-vertical">03.10.26</span>
+                    </div>
+                    <div class="hero-center">
+                        <h1><span class="first-letter">Д</span>митрий <br>&amp; <br><span class="first-letter">А</span>лёна</h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== Текст приглашения ===== -->
+        <section class="invite-text">
+            <p class="invite-title">
+                <span class="first-letter">Д</span>ОРОГИЕ
+            </p>
+            <p class="invite-subtitle">
+                родные и близкие!
+            </p>
+            <p class="invite-body">
+                С огромной радостью и большой любовью приглашаем вас<br />
+                разделить с нами трогательный и важный момент нашей жизни.
+            </p>
+        </section>
+
+        <!-- ===== Календарь с сердечком ===== -->
+        <section class="calendar-section">
+            <div class="calendar-wrapper">
+                <!-- SVG календарь на октябрь 2026 -->
+                <div class="calendar-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="100%" height="100%" style="border-radius: 36px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); display: block;">
+                        <!-- Фон календаря -->
+                        <rect width="460" height="460" fill="#fffbf7" rx="36" ry="36"/>
+                        
+                        <!-- Месяц (просто текст, без фона) -->
+                        <text x="230" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#453734" font-weight="bold" letter-spacing="4">ОКТЯБРЬ</text>
+                        
+                        <!-- Дни недели -->
+                        <g font-family="Georgia, serif" font-size="16" fill="#625b53" text-anchor="middle" font-weight="bold">
+                            <text x="65" y="130">ПН</text>
+                            <text x="125" y="130">ВТ</text>
+                            <text x="185" y="130">СР</text>
+                            <text x="245" y="130">ЧТ</text>
+                            <text x="305" y="130">ПТ</text>
+                            <text x="365" y="130">СБ</text>
+                            <text x="425" y="130">ВС</text>
+                        </g>
+                        
+                        <!-- Числа октября 2026 -->
+                        <!-- Первая неделя (1 октября — четверг, 2 — пятница, 3 — суббота, 4 — воскресенье) -->
+                        <g font-family="Georgia, serif" font-size="20" fill="#625b53" text-anchor="middle">
+                            <!-- Скрытые ячейки до 1 октября -->
+                            <text x="65" y="175" fill="transparent">0</text>
+                            <text x="125" y="175" fill="transparent">0</text>
+                            <text x="185" y="175" fill="transparent">0</text>
+                            <text x="245" y="175">1</text>
+                            <text x="305" y="175">2</text>
+                            <text x="365" y="175">3</text>
+                            <text x="425" y="175">4</text>
+                            
+                            <!-- Вторая неделя -->
+                            <text x="65" y="225">5</text>
+                            <text x="125" y="225">6</text>
+                            <text x="185" y="225">7</text>
+                            <text x="245" y="225">8</text>
+                            <text x="305" y="225">9</text>
+                            <text x="365" y="225">10</text>
+                            <text x="425" y="225">11</text>
+                            
+                            <!-- Третья неделя -->
+                            <text x="65" y="275">12</text>
+                            <text x="125" y="275">13</text>
+                            <text x="185" y="275">14</text>
+                            <text x="245" y="275">15</text>
+                            <text x="305" y="275">16</text>
+                            <text x="365" y="275">17</text>
+                            <text x="425" y="275">18</text>
+                            
+                            <!-- Четвёртая неделя -->
+                            <text x="65" y="325">19</text>
+                            <text x="125" y="325">20</text>
+                            <text x="185" y="325">21</text>
+                            <text x="245" y="325">22</text>
+                            <text x="305" y="325">23</text>
+                            <text x="365" y="325">24</text>
+                            <text x="425" y="325">25</text>
+                            
+                            <!-- Пятая неделя -->
+                            <text x="65" y="375">26</text>
+                            <text x="125" y="375">27</text>
+                            <text x="185" y="375">28</text>
+                            <text x="245" y="375">29</text>
+                            <text x="305" y="375">30</text>
+                            <text x="365" y="375">31</text>
+                        </g>
+                        
+                        <!-- 3 октября — обведено в сердечко (смещено на 27px вниз) -->
+                        <path d="M365 162 
+                                 C365 152, 355 145, 348 145 
+                                 C340 145, 336 152, 336 159 
+                                 C336 167, 345 175, 365 192 
+                                 C385 175, 394 167, 394 159 
+                                 C394 152, 390 145, 382 145 
+                                 C375 145, 365 152, 365 162" 
+                              fill="none" 
+                              stroke="#625b53" 
+                              stroke-width="2"/>
+                        
+                        <!-- 2026 год под календарём -->
+                        <text x="230" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#453734" font-weight="normal" letter-spacing="4">2026</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Тайминг ===== -->
+        <section class="timing">
+            <h2><span class="first-letter">Т</span>АЙМИНГ <br>свадебного дня</h2>
+
+            <div class="timing-item">
+                <h3><span class="first-letter">Р</span>оспись:</h3>
+                <p>ЗАГС Советского района,<br />ул. Олеко Дундича, д. 23</p>
+                <p class="date-time">03.10.26 г. <br /> 12:40</p>
+            </div>
+
+            <div class="timing-item banquet">
+                <div class="banquet-bg">
+                    <h3><span class="first-letter">Б</span>анкет:</h3>
+                    <p>Ресторан Golden Hall<br />ул. 1 Мая, д. 118</p>
+                    <p class="date-time">03.10.26 г. <br /> 16:00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Дресс-код ===== -->
+        <section class="dress-code">
+            <h2><span class="first-letter">Д</span>РЕСС-КОД</h2>
+            <p>Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы.</p>
+            <div class="color-palette">
+                <svg class="heart-svg" viewBox="0 0 24 24" style="background: transparent;">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#453734"/>
+                </svg>
+                <svg class="heart-svg" viewBox="0 0 24 24" style="background: transparent;">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#84503b"/>
+                </svg>
+                <svg class="heart-svg" viewBox="0 0 24 24" style="background: transparent;">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#eddcc0"/>
+                </svg>
+                <svg class="heart-svg" viewBox="0 0 24 24" style="background: transparent;">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#828862"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- ===== Пожелания ===== -->
+        <section class="wishes">
+            <h2><span class="first-letter">П</span>ОЖЕЛАНИЯ</h2>
+            <p>
+                Приятным комплиментом для нас будет, если вместо цветов<br />
+                вы решите подарить нам бутылочку вашего любимого вина.
+            </p>
+        </section>
+
+        <!-- ===== Обратный отсчёт ===== -->
+        <section class="countdown">
+            <h2><span class="first-letter">У</span>ВИДИМСЯ <br>через....</h2>
+            <div class="timer" id="timer">
+                <div><span id="days">00</span> дней</div>
+                <div><span id="hours">00</span> часов</div>
+                <div><span id="minutes">00</span> минут</div>
+                <div><span id="seconds">00</span> секунд</div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        // ===== JavaScript для обратного отсчёта =====
+        (function() {
+            const weddingDate = new Date('2026-10-03T00:00:00').getTime();
+
+            function updateTimer() {
+                const now = Date.now();
+                let diff = weddingDate - now;
+
+                if (diff < 0) {
+                    diff = 0;
+                }
+
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = String(days).padStart(2, '0');
+                document.getElementById('hours').textContent = String(hours).padStart(2, '0');
+                document.getElementById('minutes').textContent = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').textContent = String(seconds).padStart(2, '0');
+            }
+
+            updateTimer();
+            setInterval(updateTimer, 1000);
+        })();
+    </script>
+</body>
 </html>
-
-
