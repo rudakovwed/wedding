@@ -536,11 +536,11 @@ body {
         padding: 0.6rem 0.6rem 1.5rem 0.6rem;
     }
     .hero-left {
-        left: 15px;
+        left: 50px;
     }
     .date-vertical {
         font-size: 1.3rem;
-        padding: 0.3rem 0.15rem;
+        padding: 0.3rem 0.6rem;
         letter-spacing: 1px;
     }
     .hero-center {
@@ -550,7 +550,7 @@ body {
     .hero-center h1 {
         font-size: 1.3rem;
         letter-spacing: 1px;
-        line-height: 0.8;
+        line-height: 0.9;
     }
     .first-letter {
         font-size: 4.2rem;
