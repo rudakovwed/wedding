@@ -1,11 +1,12 @@
 /* style.css */
 @font-face {
     font-family: 'Amadeusap';
-    src: url('/wedding/fonts/amadeusap.otf') format('opentype');
+    src: url('../wedding/fonts/amadeusap.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 * {
     margin: 0;
     padding: 0;
