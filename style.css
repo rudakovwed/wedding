@@ -536,7 +536,7 @@ body {
         padding: 0.6rem 0.6rem 1.5rem 0.6rem;
     }
     .hero-left {
-        left: 50px;
+        left: 15px;
     }
     .date-vertical {
         font-size: 1.3rem;
@@ -550,10 +550,14 @@ body {
     .hero-center h1 {
         font-size: 1.3rem;
         letter-spacing: 1px;
-        line-height: 0.9;
+        line-height: 0.8;
     }
     .first-letter {
         font-size: 4.2rem;
+    }
+    .first-letter.alena {
+        display: inline-block;
+        margin-top: 8px;
     }
     .invite-text {
         font-size: 0.95rem;
