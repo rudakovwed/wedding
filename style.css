@@ -1,8 +1,14 @@
-/* style.css */
+@font-face {
+    font-family: 'GreatVibes';
+    src: url('/wedding/fonts/GreatVibes-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
-    font-family: 'Amadeusap';
-    src: url('/wedding/fonts/amadeusap.otf') format('opentype');
+    font-family: 'Amadeus';
+    src: url('/wedding/fonts/Amadeus.ttf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -106,7 +112,7 @@ body {
 }
 
 .first-letter {
-    font-family: 'Amadeusap', sans-serif;
+    font-family: 'Amadeus', sans-serif;
     font-size: 6.2rem;
     font-weight: inherit;
     color: inherit;
