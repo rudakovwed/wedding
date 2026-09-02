@@ -1,4 +1,11 @@
 /* style.css */
+@font-face {
+    font-family: 'Amadeusap';
+    src: url('/wedding/fonts/amadeusap.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 * {
     margin: 0;
     padding: 0;
@@ -97,7 +104,7 @@ body {
 }
 
 .first-letter {
-    font-family: amadeusap, sans-serif;
+    font-family: 'Amadeusap', sans-serif;
     font-size: 6.2rem;
     font-weight: inherit;
     color: inherit;
