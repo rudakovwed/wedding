@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Amadeusap';
-    src: url('../fonts/amadeusap.otf') format('opentype');
+    src: url('/wedding/fonts/amadeusap.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
