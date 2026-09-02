@@ -14,7 +14,6 @@
         <!-- ===== Верхняя секция: фото + имена + дата ===== -->
         <header class="hero">
             <div class="hero-image">
-                <!-- Здесь фоновая картинка задаётся в CSS -->
                 <div class="hero-overlay">
                     <div class="hero-left">
                         <span class="date-vertical">03.10.26</span>
@@ -35,7 +34,7 @@
                 родные и близкие!
             </p>
             <p class="invite-body">
-                С огромной радостью и большой любовью приглашаем вас<br />
+                С огромной радостью и большой любовью приглашаем вас
                 разделить с нами трогательный и важный момент нашей жизни.
             </p>
         </section>
@@ -43,16 +42,10 @@
         <!-- ===== Календарь с сердечком ===== -->
         <section class="calendar-section">
             <div class="calendar-wrapper">
-                <!-- SVG календарь на октябрь 2026 -->
                 <div class="calendar-image">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 460" width="100%" height="100%" style="border-radius: 36px; box-shadow: 0 6px 18px rgba(0,0,0,0.08); display: block;">
-                        <!-- Фон календаря -->
                         <rect width="460" height="460" fill="#fffbf7" rx="36" ry="36"/>
-                        
-                        <!-- Месяц (просто текст, без фона) -->
                         <text x="230" y="80" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#453734" font-weight="bold" letter-spacing="4">ОКТЯБРЬ</text>
-                        
-                        <!-- Дни недели -->
                         <g font-family="Georgia, serif" font-size="16" fill="#625b53" text-anchor="middle" font-weight="bold">
                             <text x="65" y="130">ПН</text>
                             <text x="125" y="130">ВТ</text>
@@ -62,11 +55,7 @@
                             <text x="365" y="130">СБ</text>
                             <text x="425" y="130">ВС</text>
                         </g>
-                        
-                        <!-- Числа октября 2026 -->
-                        <!-- Первая неделя (1 октября — четверг, 2 — пятница, 3 — суббота, 4 — воскресенье) -->
                         <g font-family="Georgia, serif" font-size="20" fill="#625b53" text-anchor="middle">
-                            <!-- Скрытые ячейки до 1 октября -->
                             <text x="65" y="175" fill="transparent">0</text>
                             <text x="125" y="175" fill="transparent">0</text>
                             <text x="185" y="175" fill="transparent">0</text>
@@ -74,8 +63,6 @@
                             <text x="305" y="175">2</text>
                             <text x="365" y="175">3</text>
                             <text x="425" y="175">4</text>
-                            
-                            <!-- Вторая неделя -->
                             <text x="65" y="225">5</text>
                             <text x="125" y="225">6</text>
                             <text x="185" y="225">7</text>
@@ -83,8 +70,6 @@
                             <text x="305" y="225">9</text>
                             <text x="365" y="225">10</text>
                             <text x="425" y="225">11</text>
-                            
-                            <!-- Третья неделя -->
                             <text x="65" y="275">12</text>
                             <text x="125" y="275">13</text>
                             <text x="185" y="275">14</text>
@@ -92,8 +77,6 @@
                             <text x="305" y="275">16</text>
                             <text x="365" y="275">17</text>
                             <text x="425" y="275">18</text>
-                            
-                            <!-- Четвёртая неделя -->
                             <text x="65" y="325">19</text>
                             <text x="125" y="325">20</text>
                             <text x="185" y="325">21</text>
@@ -101,8 +84,6 @@
                             <text x="305" y="325">23</text>
                             <text x="365" y="325">24</text>
                             <text x="425" y="325">25</text>
-                            
-                            <!-- Пятая неделя -->
                             <text x="65" y="375">26</text>
                             <text x="125" y="375">27</text>
                             <text x="185" y="375">28</text>
@@ -110,8 +91,6 @@
                             <text x="305" y="375">30</text>
                             <text x="365" y="375">31</text>
                         </g>
-                        
-                        <!-- 3 октября — обведено в сердечко (поднято на 2px выше) -->
                         <path d="M365 160 
                                  C365 150, 355 143, 348 143 
                                  C340 143, 336 150, 336 157 
@@ -122,37 +101,57 @@
                               fill="none" 
                               stroke="#625b53" 
                               stroke-width="2"/>
-                        
-                        <!-- 2026 год под календарём -->
                         <text x="230" y="420" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#453734" font-weight="normal" letter-spacing="4">2026</text>
                     </svg>
                 </div>
             </div>
         </section>
 
+        <!-- ===== Разделитель ===== -->
+        <div class="divider">
+            <span class="divider-line"></span>
+            <svg class="divider-heart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#625b53" stroke-width="1.5"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
         <!-- ===== Тайминг ===== -->
         <section class="timing">
             <h2><span class="first-letter">Т</span>АЙМИНГ <br>свадебного дня</h2>
 
             <div class="timing-item">
-                <h3><span class="first-letter">Р</span>оспись:</h3>
+                <h3>Роспись:</h3>
                 <p>ЗАГС Советского района,<br />ул. Олеко Дундича, д. 23</p>
                 <p class="date-time">03.10.26 г. <br /> 12:40</p>
+                <a href="https://yandex.ru/maps/?rtext=~51.651343,39.123373&rtt=auto" target="_blank" class="route-btn">Построить маршрут</a>
             </div>
 
             <div class="timing-item banquet">
                 <div class="banquet-bg">
-                    <h3><span class="first-letter">Б</span>анкет:</h3>
-                    <p>Ресторан Golden Hall<br />ул. 1 Мая, д. 118</p>
-                    <p class="date-time">03.10.26 г. <br /> 16:00</p>
+                    <div class="banquet-content">
+                        <h3>Банкет:</h3>
+                        <p>Ресторан Golden Hall<br />ул. 1 Мая, д. 118</p>
+                        <p class="date-time">03.10.26 г. <br /> 16:00</p>
+                        <a href="https://yandex.ru/maps/?rtext=~51.725809,39.156180&rtt=auto" target="_blank" class="route-btn route-btn-light">Построить маршрут</a>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <!-- ===== Разделитель ===== -->
+        <div class="divider">
+            <span class="divider-line"></span>
+            <svg class="divider-heart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#625b53" stroke-width="1.5"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
         <!-- ===== Дресс-код ===== -->
         <section class="dress-code">
             <h2><span class="first-letter">Д</span>РЕСС-КОД</h2>
-            <p>Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы.</p>
+            <p class="invite-body">Мы будем рады, если вы поддержите цветовую палитру нашей свадьбы.</p>
             <div class="color-palette">
                 <svg class="heart-svg" viewBox="0 0 24 24" style="background: transparent;">
                     <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="#453734"/>
@@ -169,18 +168,38 @@
             </div>
         </section>
 
+        <!-- ===== Разделитель ===== -->
+        <div class="divider">
+            <span class="divider-line"></span>
+            <svg class="divider-heart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#625b53" stroke-width="1.5"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
         <!-- ===== Пожелания ===== -->
         <section class="wishes">
             <h2><span class="first-letter">П</span>ОЖЕЛАНИЯ</h2>
-            <p>
-                Приятным комплиментом для нас будет, если вместо цветов<br />
+            <p class="invite-body">
+                Приятным комплиментом для нас будет, если вместо цветов
                 вы решите подарить нам бутылочку вашего любимого вина.
             </p>
         </section>
 
+        <!-- ===== Разделитель ===== -->
+        <div class="divider">
+            <span class="divider-line"></span>
+            <svg class="divider-heart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#625b53" stroke-width="1.5"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
         <!-- ===== Обратный отсчёт ===== -->
         <section class="countdown">
-            <h2><span class="first-letter">У</span>ВИДИМСЯ <br>через....</h2>
+            <div class="countdown-header">
+                <h2><span class="first-letter">У</span>ВИДИМСЯ <br>через....</h2>
+            </div>
             <div class="timer" id="timer">
                 <div><span id="days">00</span> дней</div>
                 <div><span id="hours">00</span> часов</div>
@@ -189,10 +208,18 @@
             </div>
         </section>
 
+        <!-- ===== Разделитель в конце страницы ===== -->
+        <div class="divider divider-footer">
+            <span class="divider-line"></span>
+            <svg class="divider-heart" viewBox="0 0 24 24">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="none" stroke="#625b53" stroke-width="1.5"/>
+            </svg>
+            <span class="divider-line"></span>
+        </div>
+
     </div>
 
     <script>
-        // ===== JavaScript для обратного отсчёта =====
         (function() {
             const weddingDate = new Date('2026-10-03T00:00:00').getTime();
 
