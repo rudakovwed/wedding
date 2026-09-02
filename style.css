@@ -30,7 +30,7 @@ body {
 }
 
 .hero-image {
-    background-image: url('images/hends.jpg');
+    background-image: url('/wedding/images/hends.jpg');
     background-size: cover;
     background-position: 50% 20%;
     width: 100%;
